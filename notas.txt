@@ -6,4 +6,4 @@ git log --oneline --graph // este comando permite ver el arbol de commits.
 git branch // este comando lo que hace es mostrarnos todas las ramas y en la eque estoy.
 git fetch // trae todas las ramas nuevas.
 git merge NOMBRE_DE_LA_RAMA --no-ff // este comando mezcla una rama con la rama en la que estoy.
-
+git push origin NOMBRE_DELA_RAMA. // este comando empuja los cambios de local al remoto.
