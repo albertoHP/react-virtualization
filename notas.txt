@@ -1,5 +1,9 @@
-git checkout -b 'NOMBRE DE LA RAMA' // ESTE COMANDO SIRVE PARA CREAR UNA NUEVA RAMA
+git checkout -b 'NOMBRE DE LA RAMA' // ESTE COMANDO SIRVE PARA CREAR UNA NUEVA RAMA.
 git status // te muestra los archivos modificados.
 git add --all // guarda todos los archivos modificados.
 git commit -m "wip(Create File): in this commmit i create a new file" // primero va el tipo de commit(add,create,refactor,wip) despues entreparentesis va el contexto despues : la descripcion del commit.
-git log --oneline --graph // este comando permite ver el arbol de commits
+git log --oneline --graph // este comando permite ver el arbol de commits.
+git branch // este comando lo que hace es mostrarnos todas las ramas y en la eque estoy.
+git fetch // trae todas las ramas nuevas.
+git merge NOMBRE_DE_LA_RAMA --no-ff // este comando mezcla una rama con la rama en la que estoy.
+
