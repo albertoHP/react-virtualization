@@ -1,4 +1,5 @@
 git checkout -b 'NOMBRE DE LA RAMA' // ESTE COMANDO SIRVE PARA CREAR UNA NUEVA RAMA.
+git checkout NOMBRE_DE_LA_RAMA // es para cambiarse de rama.
 git status // te muestra los archivos modificados.
 git add --all // guarda todos los archivos modificados.
 git commit -m "wip(Create File): in this commmit i create a new file" // primero va el tipo de commit(add,create,refactor,wip) despues entreparentesis va el contexto despues : la descripcion del commit.
@@ -7,4 +8,5 @@ git branch // este comando lo que hace es mostrarnos todas las ramas y en la equ
 git fetch // trae todas las ramas nuevas.
 git merge NOMBRE_DE_LA_RAMA --no-ff // este comando mezcla una rama con la rama en la que estoy.
 git push origin NOMBRE_DELA_RAMA. // este comando empuja los cambios de local al remoto.
-git rebase NOMBRE_DE_LA_RAMA(MASTER) // este comando lo que hace es poner todos los commit de mi rama sobre los commits de la rama master.
+git rebas//e NOMBRE_DE_LA_RAMA(MASTER) // este comando lo que hace es poner todos los commit de mi rama sobre los commits de la rama master.
+git pull origin NOMBRE_DE_LA_RAMA // este comando sirve para traerme los cambios del remoto de la rama.
