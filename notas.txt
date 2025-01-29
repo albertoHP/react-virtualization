@@ -7,3 +7,4 @@ git branch // este comando lo que hace es mostrarnos todas las ramas y en la equ
 git fetch // trae todas las ramas nuevas.
 git merge NOMBRE_DE_LA_RAMA --no-ff // este comando mezcla una rama con la rama en la que estoy.
 git push origin NOMBRE_DELA_RAMA. // este comando empuja los cambios de local al remoto.
+git rebase NOMBRE_DE_LA_RAMA(MASTER) // este comando lo que hace es poner todos los commit de mi rama sobre los commits de la rama master.
